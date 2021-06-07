@@ -96,3 +96,4 @@ Received Import Request.
   path: Assets/Prefabs/PlatPref.prefab
   artifactKey: Guid(6af5ca219905bbd4c95ffe2bd887d45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/PlatPref.prefab using Guid(6af5ca219905bbd4c95ffe2bd887d45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d531a1f57cce1a3e88da3f6a43c1cb1') in 0.338384 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
