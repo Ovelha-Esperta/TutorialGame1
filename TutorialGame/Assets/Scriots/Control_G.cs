@@ -5,15 +5,7 @@ using UnityEngine;
 public class Control_G : MonoBehaviour
 {
     // Start is called before the first frame update
+    public Controll_Cen controll_Cen;
     public List<Control_level> control_levelList = new List<Control_level>();
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }

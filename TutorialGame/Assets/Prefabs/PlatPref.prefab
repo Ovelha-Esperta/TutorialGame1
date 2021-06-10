@@ -209,6 +209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 482658355849015574}
   - component: {fileID: 9169890255934416943}
+  - component: {fileID: 7992031650089484639}
   m_Layer: 0
   m_Name: PlatPref
   m_TagString: Untagged
@@ -291,6 +292,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7992031650089484639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007475398506758197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5cae5adf2dce8a4085b244629c974bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelPlat: 0
+  platL1:
+  - {fileID: 5022399567745528989}
+  - {fileID: 5537864866745995948}
+  platL2:
+  - {fileID: 7820826013913527307}
+  - {fileID: 4466794022039863908}
+  platL3:
+  - {fileID: 8689320183872888490}
+  control_Level: {fileID: 0}
 --- !u!1 &1352315967716222953
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,7 +578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4466794022039863908
 Transform:
   m_ObjectHideFlags: 0
@@ -1002,7 +1025,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8689320183872888490
 Transform:
   m_ObjectHideFlags: 0
@@ -1035,7 +1058,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5537864866745995948
 Transform:
   m_ObjectHideFlags: 0
